@@ -77,7 +77,6 @@ ul.nav-menu li a {
 	border-radius: 100%;
 	border: 2px solid black
 	display: block-inline;
-	margin-top: 0%;
 }
 
 #intro-text {
@@ -85,6 +84,7 @@ ul.nav-menu li a {
 	width: 400px;
 	display: block-inline;
 	float: right;
+	margin-left: 10px;
 }
 
 .review-img {
