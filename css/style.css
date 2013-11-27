@@ -1,0 +1,99 @@
+/** {
+	border: 2px solid black;
+}*/
+
+p {
+	font-size: 1.25em;
+	font-family: "Share Tech Mono", "Menlo", fixed;
+}
+
+a {
+	font-size: 1em;
+	color: #ec5e50;
+	font-family: "Share Tech Mono", "Menlo", fixed;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: 'Fenix', serif;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-family: 'Fenix', serif;
+	border-bottom: 2px solid black;
+	margin-bottom: 30px;
+}
+
+#nav-bar {
+	width: 100%;
+	height: 80px;
+	margin: -180px 0 100px 0;
+	padding: 10px 0 20px 40px;
+	background-color: #ec5e50;
+	position: fixed;
+}
+
+#nav-bar h1 {
+	color: white;
+	font-size: 2.5em;
+	float: left;
+}
+
+ul.nav-menu {
+	list-style: none;
+	margin: 56px 56px 0 0;
+	float: right;
+}
+
+ul.nav-menu li {
+	float: left;
+	margin-right: 40px;
+}
+
+ul.nav-menu li a {
+	color: white;
+}
+
+
+#center-box {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10%;
+}
+
+
+#intro-img {
+	height: 300px;
+	width: 	300px;
+	border-radius: 100%;
+	border: 2px solid black
+	display: block-inline;
+	margin-top: 0%;
+}
+
+#intro-text {
+	height 400px;
+	width: 400px;
+	display: block-inline;
+	float: right;
+}
+
+.review-img {
+	width: 800px;
+	margin-bottom: 
+}
+
+#schema {
+	margin-right: 335px;
+	margin-left: 335px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 2px solid black	;
+}
