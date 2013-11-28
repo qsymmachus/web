@@ -50,6 +50,7 @@ ul.nav-menu {
 	list-style: none;
 	margin: 63px 66px 0 0;
 	float: right;
+	display: inline;
 }
 
 ul.nav-menu li {
@@ -64,7 +65,7 @@ ul.nav-menu li a {
 
 
 #center-box {
-	width: 800px;
+	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10%;
@@ -72,8 +73,8 @@ ul.nav-menu li a {
 
 
 #intro-img {
-	height: 300px;
-	width: 	300px;
+	height: 45%;
+	width: 	45%;
 	border-radius: 100%;
 	border: 2px solid black
 	float: left;
@@ -81,8 +82,8 @@ ul.nav-menu li a {
 }
 
 #intro-text {
-	height 400px;
-	width: 400px;
+	height: 45%;
+	width: 45%;
 	display: block-inline;
 	float: right;
 	margin-left: 10px;
