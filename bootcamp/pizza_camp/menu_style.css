@@ -11,8 +11,8 @@ p {
 
 h3 {
 	font-size: 1.75em;
-	border-bottom: 2px solid black;
 	margin-bottom: 10px;
+	border-bottom: 2px solid black;
 }
 
 
@@ -32,6 +32,24 @@ h3 {
 	padding: 20px 50px 20px 50px;
 	width: 35%;
 	display: block;
-	margin:0px auto 50px auto;
+	margin:0px auto 0px auto;
 	border-radius: 10px;
+}
+
+.food {
+	float: left;
+	display: inline-block;
+	width: 50%;
+}
+
+.price {
+	float: right;
+	text-align: right;
+	display: inline-block;
+	width: 50%;
+}
+
+#bottom-gif {
+	width: 100%;
+	border-radius: 10%;
 }
