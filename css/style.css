@@ -31,7 +31,7 @@ h2 {
 }
 
 #nav-bar {
-	width: 1000px;
+	width: 100%;
 	height: 80px;
 	margin: -13% -20px 100px -20px;
 	padding: 20px 20px 20px 20px;
@@ -89,14 +89,16 @@ ul.nav-menu li a {
 }
 
 .review-img {
-	width: 800px;
+	width: 100%;
 	margin-bottom: 
 }
 
 #schema {
-	margin-right: 335px;
-	margin-left: 335px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 20%;
+	display: block;
 	margin-top: 20px;
-	margin-bottom: 20px;
-	border: 2px solid black	;
+	margin-bottom: 30px;
+	border: 2px solid black;
 }
