@@ -1,0 +1,30 @@
+body {
+	background-image: url("PIZZA.jpg");
+	font-family: Garamond, serif;
+}
+
+h3 {
+	font-size: 1.25em;
+	border-bottom: 2px solid black;
+}
+
+
+#logo {
+	border: 2px solid black;
+	background-color: #cc0000;
+	padding: 20px 50px 10px 50px;
+	display: block;
+	width: 35%;
+	margin: 0px auto 20px auto;
+	border-radius: 10%;
+}
+
+#menu {
+	border: 2px solid black;
+	background-color: #f5efcf;
+	padding: 20px 50px 10px 50px;
+	width: 35%;
+	display: block;
+	margin:0px auto 50px auto;
+	border-radius: 10%;
+}
