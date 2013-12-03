@@ -115,8 +115,7 @@ ul.nav-menu li a {
 
 	ul.nav-menu {
 		width: 440px;
-		margin-right: 15.6%;
-		margin-left: 15.6%;
+		float: left;
 		margin-top: 10px;
 		display: block;
 	}
@@ -134,9 +133,9 @@ ul.nav-menu li a {
 	}
 
 	#intro-img {
-		width: 60%;
-		margin-right: 20%;
-		margin-left: 20%;
+		width: 80%;
+		margin-right: 10%;
+		margin-left: 10%;
 		display: block;
 	}
 
