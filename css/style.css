@@ -102,7 +102,7 @@ ul.nav-menu li a {
 
 /*-----MEDIA QUERIES-----*/
 
-/* iPhone */
+/* Medium resolution */
 @media screen and (max-width: 784px) {
 
 	#nav-bar {
@@ -147,7 +147,7 @@ ul.nav-menu li a {
 
 }
 
-/* Really small screens */
+/* Small resolution */
 @media screen and (max-width: 500px) {
 
 	ul.nav-menu {
