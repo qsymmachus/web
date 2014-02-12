@@ -98,6 +98,16 @@ ul.nav-menu li a {
 	width: 20%;
 }
 
+#macronutrients {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	min-width: 250px;
+	width: 50%;
+}
+
 
 /*-----MEDIA QUERIES-----*/
 
