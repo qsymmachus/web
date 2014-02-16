@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html>
 
@@ -36,7 +35,9 @@
 
 			<p>Macronutrient search does what it advertises: it returns the macronutrients of a food only. Food "macros" include calorie count, carbohydrates, fat, and protein. You know, the things you actually pay attention to on a nutrition label. </p>
 
-			<p>It's powered by the <a href="http://platform.fatsecret.com/api/">FatSecret API</a> which provides a solid nutritional database. <a href="http://ibrahimmuhammad.com/">Ibrahim Muhammad</a> wrote a nice ruby gem for the API. <a href="http://www.sinatrarb.com/intro.html">Sinatra</a> does the rest of the work.</p>
+			<p>It's powered by the <a href="http://platform.fatsecret.com/api/">FatSecret API</a> which provides a solid nutritional database. <a href="http://ibrahimmuhammad.com/">Ibrahim Muhammad</a> wrote a nice ruby gem for the API. The app is optimized with database caching; the results of each user query are written to a database by a background job to avoid repeat API requests. Note that background jobs are disabled in the heroku deployed version of the app.
+
+			<p>Roy Lee, Patrick Vilhena, and Eli Shkurkin recently helped me redesign the frontend with the D3.js library. The macronutrients for each results are now visualized in a radar graph.</p>
 		</div>
 
 		<div id="center-box">
