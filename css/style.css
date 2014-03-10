@@ -1,3 +1,11 @@
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 180px;
+	margin-bottom: 60px;
+	width: 800px;
+}
+
 p {
 	font-size: 1.25em;
 	font-family: "Share Tech Mono", "Menlo", fixed;
@@ -60,11 +68,11 @@ ul.nav-menu li a {
 }
 
 
-#center-box {
+.subsection {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 180px;
-	width: 800px	;
+	margin-bottom: 80px;
+	width: 100%;
 }
 
 
@@ -98,11 +106,29 @@ ul.nav-menu li a {
 	width: 20%;
 }
 
+#macronutrients {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	min-width: 300px;
+	width: 80%;
+}
+
 
 /*-----MEDIA QUERIES-----*/
 
 /* Medium resolution */
 @media screen and (max-width: 900px) {
+
+	#container {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 140px;
+		width: 80%;
+	}
 
 	#nav-bar {
 		height: 40px;
@@ -123,14 +149,6 @@ ul.nav-menu li a {
 		float: left;
 		margin-right: 30px;
 		text-align: center;
-	}
-
-	#center-box {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 140px;
-		width: 80%;
 	}
 
 	#intro-img {
