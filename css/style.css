@@ -106,12 +106,9 @@ ul.nav-menu li a {
 	width: 20%;
 }
 
-#macronutrients {
+.screenshot {
 	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 20px;
-	margin-bottom: 30px;
+	margin: 30px auto;
 	min-width: 300px;
 	width: 80%;
 }
