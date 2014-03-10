@@ -24,6 +24,25 @@
 
 		<div id="container">
 			<div class="subsection">
+				<h2>BAC Monkey</h2>
+				<p><a href="http://www.bacmonkey.com">www.bacmonkey.com</a></p>
+				<p><a href="https://github.com/sea-lions-2014/bac-monkey">BAC Monkey repo</a></p>
+
+				<p>BAC Monkey is a personal tracker for alcohol, caffeine, and nicotine. Users can enter the number of drinks they consumed and see their estimated Blood Alcohol Content (BAC %) graphed over time. Caffeine and Nicotine dosage is graphed in milligrams.</p>
+
+				<img class="screenshot" src="img/bac_monkey_graph.png">
+
+				<p>If a user creates an account with BAC monkey, he or she can began tracking her long term habits. A user's profile page provides their average daily consumption, how they compare to other users, and information on the maximum intake doctors recommend.</p>
+
+				<img class="screenshot" src="img/bac_monkey_profile.png">
+
+				<p>I developed BAC Monkey in Rails along with Patrick Vilhena, Darcey Lachtman, and David Goodman. I was team lead and my particular contribution was the development of the models required to generate the graphs. 
+
+				<p>The classes AlcoholCalc, CaffeineCalc, and NicotineCalc all contain their own formulae for estimating dosage based on the elimination half-life of each substance; caffeine, for example, has an elimination rate of 9% per hour. These classes inherit from a superclass SubstanceCalc which generates a nested array of data points where 'x' is the time measured in 15 minute intervals and 'y' is the calculated dosage. This array is then passed to the front end where it is rendered as a graph using the D3.js library.</p>
+
+			</div>
+
+			<div class="subsection">
 				<h2>Macronutrient search</h2>
 
 				<p><a href="http://macronutrients.herokuapp.com">Macronutrients on heroku</a></p>
@@ -31,7 +50,7 @@
 
 				<p>I like to keep track of what I eat, but I hate most online nutrition apps. They're filled with ads and usually give me way more information than I actually need. So I decided to make my own.</p>
 
-				<img id="macronutrients" src="img/macronutrients.png"/>
+				<img class="screenshot" src="img/macronutrients.png"/>
 
 				<p>Macronutrient search does what it advertises: it returns the macronutrients of a food only. Food "macros" include calorie count, carbohydrates, fat, and protein. You know, the things you actually pay attention to on a nutrition label. </p>
 
