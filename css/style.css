@@ -75,6 +75,19 @@ ul.nav-menu li a {
 	width: 100%;
 }
 
+.subsection ul {
+	font-size: 1.25em;
+	font-family: "Share Tech Mono", "Menlo", fixed;
+}
+
+.subsection li {
+	margin-bottom: 5px;
+}
+
+.pop {
+	text-decoration: underline;
+}
+
 
 #intro-img {
 	border-radius: 100%;
