@@ -20,3 +20,5 @@ middleman build
 
 The `/build` directory is not tracked by git.
 
+The configuration file `config.rb` allows you to set your Middleman options.
+
