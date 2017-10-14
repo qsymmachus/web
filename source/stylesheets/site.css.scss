@@ -133,6 +133,11 @@ ul.nav-menu li a {
 	width: 80%;
 }
 
+.hint {
+	color: #bdbdbd;
+	font-style: italic;
+}
+
 
 /*-----MEDIA QUERIES-----*/
 
@@ -183,7 +188,6 @@ ul.nav-menu li a {
 		display: block;
 		width: 100%;
 	}
-
 }
 
 /* Small resolution */
