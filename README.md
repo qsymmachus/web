@@ -1,4 +1,5 @@
-#olmsted.io
+olmsted.io
+==========
 
 This static site is generated using [Middleman](https://middlemanapp.com). To start development, first install all dependencies:
 
