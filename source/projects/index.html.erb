@@ -40,8 +40,6 @@ title: John Olmsted - Projects
 
   <p>A few apps have already been made to address this problem. Jon Wu's <a href="http://www.jonwu.me/greenbyme.html">"Green by me"</a> maps green businesses near a user organized by sector. Alameda county has an <a href="http://acgov.org/mobile/services/greenbiz/">official app</a> that allows users to search green businesses by city and sector. </p>
 
-  <img class="project-image sized-image" src="/images/green_business.png">
-
   <p>I thought that these apps, while useful, lacked a core feature: the ability to search for green certified businesses by name. This app implements that feature within an appealing front-end interface. </p>
 </div>
 
@@ -55,15 +53,11 @@ title: John Olmsted - Projects
 
   <p>BAC Monkey is a personal tracker for alcohol, caffeine, and nicotine. Users can enter the number of drinks they consumed and see their estimated Blood Alcohol Content (BAC %) graphed over time. Caffeine and Nicotine dosage is graphed in milligrams.</p>
 
-  <img class="project-image sized-image" src="/images/bac_monkey_graph.png">
-
   <p>If a user creates an account with BAC monkey, he or she can begin tracking her long term habits. A user's profile page provides their average daily consumption, how they compare to other users, and information on the maximum intake doctors recommend.</p>
 
   <img class="project-image sized-image" src="/images/bac_monkey_profile.png">
 
   <p>I developed BAC Monkey in Rails along with Patrick Vilhena, Darcey Lachtman, and David Goodman. I was team lead and my particular contribution was the development of the models required to generate the graphs.
-
-  <p>The classes AlcoholCalc, CaffeineCalc, and NicotineCalc all contain their own formulae for estimating dosage based on the elimination half-life of each substance; caffeine, for example, has an elimination rate of 9% per hour. These classes inherit from a superclass SubstanceCalc which generates a nested array of data points where 'x' is the time measured in 15 minute intervals and 'y' is the calculated dosage. This array is then passed to the front end where it is rendered as a graph using the D3.js library.</p>
 </div>
 
 <div class="subsection">
