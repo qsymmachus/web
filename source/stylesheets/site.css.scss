@@ -11,13 +11,13 @@
 
 p {
 	font-size: 1.25em;
-	font-family: "Share Tech Mono", "Menlo", fixed;
+	font-family: monospace;
 }
 
 a {
 	color: #ec5e50;
 	font-size: 1em;
-	font-family: "Share Tech Mono", "Menlo", fixed;
+	font-family: monospace;
 	text-decoration: none;
 }
 
@@ -27,13 +27,13 @@ a:hover {
 
 h1 {
 	font-size: 2em;
-	font-family: 'Fenix', serif;
+	font-family: monospace;
 }
 
 h2 {
 	border-bottom: 2px solid black;
 	font-size: 1.5em;
-	font-family: 'Fenix', serif;
+	font-family: monospace;
 	margin-bottom: 30px;
 }
 
@@ -80,7 +80,7 @@ ul.nav-menu li a {
 
 .subsection ul {
 	font-size: 1.25em;
-	font-family: "Share Tech Mono", "Menlo", fixed;
+	font-family: monospace;
 }
 
 .subsection li {
