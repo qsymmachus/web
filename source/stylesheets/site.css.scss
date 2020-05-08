@@ -31,23 +31,24 @@ h1 {
 }
 
 h2 {
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 	font-size: 1.5em;
 	font-family: monospace;
 	margin-bottom: 30px;
 }
 
 #nav-bar {
-	background-color: #ec5e50;
+	background-color: white;
 	height: 60px;
 	padding: 20px 20px 20px 20px;
 	position: fixed;
 	top: 0;
 	width: 100%;
+	border-bottom: 2px solid black;
 }
 
 #nav-bar h1 {
-	color: white;
+	color: black;
 	float: left;
 	font-size: 2.5em;
 	margin: 10px 0 0 2%;
@@ -66,7 +67,7 @@ ul.nav-menu li {
 }
 
 ul.nav-menu li a {
-	color: white;
+	color: black;
 	font-size: 1.25em;
 }
 
@@ -194,7 +195,7 @@ ul.nav-menu li a {
 }
 
 /* Small resolution */
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 490px) {
 
 	ul.nav-menu {
 		display: block;
