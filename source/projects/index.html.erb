@@ -5,40 +5,39 @@ title: John Olmsted - Projects
 <div class="subsection">
   <h2>netpong</h2>
 
-  <p><a href="https://github.com/qsymmachus/netpong">https://github.com/qsymmachus/netpong</a><p>
-
   <p>Bored at work? Play networked pong in your terminal.</p>
 
   <p>The game interface was inspired by <a href="https://earthly.dev/blog/pongo/">this excellent tutorial</a> on using tcell to develop a TUI. I extended the game to support networked play between two players using a streaming gRPC API.</p>
+
+  <img class="project-image sized-image max-width" src="/images/netpong.png">
+
+  <p><a href="https://github.com/qsymmachus/netpong">https://github.com/qsymmachus/netpong</a><p>
 </div>
 
 <div class="subsection">
   <h2>ranger</h2>
 
-  <p><a href="https://github.com/qsymmachus/ranger">ranger repo</a><p>
-
   <p>The missing range functions for Go in one tidy package. Use it to easily generate intervals of integers, floats, runes, and strings.</p>
 
-  <p>I missed the <a href="https://ruby-doc.org/core-2.5.1/Range.html">range</a> type in Ruby so I wrote this.</p>
+  <p><a href="https://github.com/qsymmachus/ranger">https://github.com/qsymmachus/ranger</a><p>
 </div>
 
 <div class="subsection">
   <h2>Life</h2>
-
-  <p><a href="https://github.com/qsymmachus/life">life repo</a><p>
-  <p><a href="https://olmsted.io/life">https://olmsted.io/life</a><p>
 
   <p>I wrote an implementation of <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a> using React and Redux.
 
   <img class="project-image" src="/images/life.gif">
 
   <p>When developing this, I tried to clearly separate the domain of the game of life (which is written in ordinary Javascript) from the view and state management layers (which are written using React and Redux Zero respectively).</p>
+
+  <p>Play the game: <a href="https://olmsted.io/life">https://olmsted.io/life</a><p>
+  <p><a href="https://github.com/qsymmachus/life">https://github.com/qsymmachus/life</a><p>
+
 </div>
 
 <div class="subsection">
   <h2>okscraper</h2>
-
-  <p><a href="https://github.com/qsymmachus/okscraper">okscraper repo</a><p>
 
   <p class="hint">Heads up! I don't maintain this anymore. No guarantee that it still works.</p>
 
@@ -46,13 +45,12 @@ title: John Olmsted - Projects
 
   <p>Why did I build these tools? My ultimate goal is an algorithm that determines how unoriginal your OkCupid profile is. This will probably rely on some version of the <a href="http://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm">Rabin-Karp</a> string searching algorithm, which requires a set of patterns. Since OkCupid doesn't provide an API, I've got to scrape 'em.</p>
 
+  <p><a href="https://github.com/qsymmachus/okscraper">https://github.com/qsymmachus/okscraper</a><p>
+
 </div>
 
 <div class="subsection">
   <h2>Is it green?</h2>
-
-  <p><a href="http://acgreenbusinesses.herokuapp.com">Green Businesses on heroku</a></p>
-  <p><a href="https://github.com/qsymmachus/green-businesses">Green Businesses repo</a></p>
 
    <p class="hint">Heads up! I don't maintain this anymore. No guarantee that it still works.</p>
 
@@ -61,13 +59,12 @@ title: John Olmsted - Projects
   <p>A few apps have already been made to address this problem. Jon Wu's <a href="http://www.jonwu.me/greenbyme.html">"Green by me"</a> maps green businesses near a user organized by sector. Alameda county has an <a href="http://acgov.org/mobile/services/greenbiz/">official app</a> that allows users to search green businesses by city and sector. </p>
 
   <p>I thought that these apps, while useful, lacked a core feature: the ability to search for green certified businesses by name. This app implements that feature within an appealing front-end interface. </p>
+
+  <p><a href="https://github.com/qsymmachus/green-businesses">https://github.com/qsymmachus/green-businesses</a></p>
 </div>
 
 <div class="subsection">
   <h2>BAC Monkey</h2>
-
-  <p><a href="http://www.bacmonkey.com">www.bacmonkey.com</a></p>
-  <p><a href="https://github.com/sea-lions-2014/bac-monkey">BAC Monkey repo</a></p>
 
    <p class="hint">Heads up! I don't maintain this anymore. No guarantee that it still works.</p>
 
@@ -78,13 +75,12 @@ title: John Olmsted - Projects
   <img class="project-image sized-image" src="/images/bac_monkey_profile.png">
 
   <p>I developed BAC Monkey in Rails along with Patrick Vilhena, Darcey Lachtman, and David Goodman. I was team lead and my particular contribution was the development of the models required to generate the graphs.
+
+  <p><a href="https://github.com/sea-lions-2014/bac-monkey">https://github.com/sea-lions-2014/bac-monkey</a></p>
 </div>
 
 <div class="subsection">
   <h2>Macronutrient search</h2>
-
-  <p><a href="http://macronutrients.herokuapp.com">Macronutrients on heroku</a></p>
-  <p><a href="https://github.com/qsymmachus/macronutrients">Macronutrients repo</a></p>
 
   <p class="hint">Heads up! I don't maintain this anymore. No guarantee that it still works.</p>
 
@@ -97,13 +93,12 @@ title: John Olmsted - Projects
   <p>It's powered by the <a href="http://platform.fatsecret.com/api/">FatSecret API</a> which provides a solid nutritional database. <a href="http://ibrahimmuhammad.com/">Ibrahim Muhammad</a> wrote a nice ruby gem for the API. The app is optimized with database caching; the results of each user query are written to a database by a background job to avoid repeat API requests. Note that background jobs are disabled in the heroku deployed version of the app.
 
   <p>Roy Lee, Patrick Vilhena, and Eli Shkurkin recently helped me redesign the frontend with the D3.js library. The macronutrients for each result are now visualized in a radar graph.</p>
+
+  <p><a href="https://github.com/qsymmachus/macronutrients">https://github.com/qsymmachus/macronutrients</a></p>
 </div>
 
 <div class="subsection">
   <h2>Cluny preambles database</h2>
-
-  <p><a href="https://github.com/qsymmachus/cluny_database">Cluny database repo</a><p>
-  <p><a href="files/arenga_types.txt" font-size: 1.25em>arenga_types.txt</a><p>
 
   <p>In my free time I maintain a SQLite database of preambles (also known as "arengae") from the Cartularies of <a href="http://en.wikipedia.org/wiki/Cluny_Abbey">Cluny</a>, 987 to 997.
 
@@ -112,5 +107,8 @@ title: John Olmsted - Projects
   <img id="schema" src="/images/schema.png"/>
 
   <p>charter_num refers to the categorization of charters found in Bernard & Bruel, "Recueil des chartes de l'abbaye de Cluny", Paris 1876-1903.
-  <p>This database is free for anyone to play around with, if medieval history is your thing. "arenga_types.txt" is a guide to the arenga categories found in the database.</p><br><br><br>
+  <p>This database is free for anyone to play around with, if medieval history is your thing. "arenga_types.txt" is a guide to the arenga categories found in the database.</p>
+
+  <p><a href="https://github.com/qsymmachus/cluny_database">https://github.com/qsymmachus/cluny_database</a><p>
+  <p><a href="files/arenga_types.txt" font-size: 1.25em>arenga_types.txt</a><p>
 </div>
