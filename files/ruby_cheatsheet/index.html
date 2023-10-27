@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+
+<html>
+  <head>
+    <title>Ruby cheatsheet!</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="cheatsheet_style.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  </head>
+
+  <body>
+    <div id="container">
+
+      <div class="section" id="string-methods">
+        <h2>String methods</h2>
+        <p class="center">.length</p>
+        <p class="center">.reverse</p>
+        <p class="center">.upcase</p>
+        <p class="center">.downcase</p>
+        <p class="left">.capitalize</p><p class ="right">capitalizes the first letter</p>
+        <p class="left">.include? "x"</p><p class ="right">tests if string contains "x"</p>
+        <p class="left">"a".next</p><p class ="right">=> "b"</p>
+        <p class="left">.gsub(regex, replacement)</p><p class ="right">Returns a copy of str with the all regex matches substituted.
+        <p class="left">.scan(regex)</p><p class ="right">Iterates through the string, returns an array of all results matching the pattern</p>
+      </div>
+
+      <div class="section" id="number-methods">
+        <h2>Number methods</h2>
+        <p class="left">.abs</p><p class ="right">absolute value</p>
+        <p class="left">.ceil</p><p class ="right">rounds float up</p>
+        <p class="left">.floor</p><p class ="right">rounds float down</p>
+        <p class="left">.rand</p><p class ="right">generates random float between 0 and 1</p>
+        <p class="left">.rand(n)</p><p class ="right">generates random float between 0 and n, exclusive</p>
+      </div>
+
+      <div class="section" id="arrays">
+        <h2>Arrays</h2>
+        <p class="center">array = [1, 2, 3]</p>
+        <p class="left">array[0]</p><p class ="right">fetch item at given index</p>
+        <p class="left">array[0][0]</p><p class ="right">fetch item at given index (2D array or beyond)</p>
+        <p class="left">array << x</p><p class ="right">add x to end of array ("concatenation operation")</p>
+        <p class="left">array.push(element)</p><p class ="right"><< is a shortcut for this</p>
+        <p class="left">array.pop(element)</p><p class ="right">opposite of pop; removes last element in array</p>
+        <p class="left">array.first</p><p class ="right">returns first element</p>
+        <p class="left">array.last</p><p class ="right">returns last element</p>
+        <p class="left">array.length</p><p class ="right">returns # of elements</p>
+        <p class="left">array.include?(x)</p><p class ="right">does the array contain an element equal to x?</p>
+        <p class="left">array.index(element)</p><p class ="right">What index is the given element at?</p>
+        <p class="left">array.join(x)</p><p class ="right">returns elements as string separated by x</p>
+        <p class="left">array.split(x)</p><p class ="right">turns a string into an array with x as separator</p>  
+      </div>
+
+      <div class="section" id="if-ternary-case">
+        <h2>One-line if statements &amp; ternary conditional statements</h2>
+        <p class="center">puts "It's true" if true</p>
+        <p class="center">puts 0 < 1 ? "0 is less than one" : "0 is greater than 1"</p>
+      </div>
+
+      <div class="section" id="methods">
+        <h2>Methods</h2>
+        <p class="center">def say_hello(parameter)<br>&nbsp;&nbsp;puts "Hello there, #{parameter}!"<br>end</p>
+        <p class="left">*parameter</p><p class="right">a "splat argument" which can accept an indefinite # of arguments.
+        splat arguments are stored as an an array.</p>
+      </div>
+
+      <div class="section" id="classes">
+        <h2>Classes</h2>
+        <p>Classes are "types" of objects that share common variables, methods, or other properties. To take a real world example, we could create a "dog" object that belongs to the "pet" class.<p>
+        <p class="center">class NameOfClass<br>&nbsp;&nbsp;def initialize(x)<br>&nbsp;&nbsp;&nbsp;&nbsp;@x = x<br>&nbsp;&nbsp;end<br>end</p>
+        <p class="center">class NameOfClass &lt; SuperClass<br>&nbsp;&nbsp;# this is the syntax for class inheritance.<br>end</p>
+      </div>
+
+      <div class="section" id="blocks-procs-lambdas">
+        <h2>Blocks, procs, lambdas</h2>
+        <p>A block is a chunk of code that does something. It can be separated by curly brackets {} or "do" and "end". Some methods take blocks as arguments; for example each, times, and select. You can write methods that accept blocks using "yield":</p> 
+        <p class = "left">def method(n)<br>&nbsp;&nbsp;yield n<br>end</p><p class="right">Passes "n" to the block. yield can also be standalone.</p>
+        <p>A proc is kind of like a "saved block." It can be assigned to a variable then passed to methods that take blocks. "&amp;" is used as a prefix to convert a proc into a block:</p>
+        <p class="center">cube = Proc.new { |x| x ** 3 }<br>[1, 2, 3].collect!(&cube)</p>
+        <p>Lambdas are more or less identical to procs, with a key difference: when a lambda returns, it passes control back to the calling method; when a proc returns, it "breaks" without finishing the rest of the method.
+      </div>
+
+      <img src="thumbs_up.gif" id="round-gif"/>
+
+    </div>
+  </body>
+</html>

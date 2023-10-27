@@ -6,9 +6,9 @@
     <meta content="width=device-width,initial-scale=1.0" name="viewport">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "John Olmsted" %></title>
+    <title>John Olmsted</title>
 
-    <%= stylesheet_link_tag :site %>
+    <link href="/stylesheets/site.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -23,7 +23,14 @@
     </div>
 
     <div id="container">
-      <%= yield %>
+      <br><br>
+<img id="intro-img" src="/images/me.png"/>
+<div id="intro-text">
+  <h1>Hi, my name's John!</h1>
+  <p>I solve problems. </p>
+  <p>I'm a software engineer based in Vermont. Before that I studied and taught medieval history.</p>
+</div>
+
     </div>
 
   </body>

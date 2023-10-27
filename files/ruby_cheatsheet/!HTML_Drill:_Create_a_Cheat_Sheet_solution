@@ -1,0 +1,12 @@
+<p>See it here: <a href="http://olmsted.io/files/ruby_cheatsheet/">http://olmsted.io/files/ruby_cheatsheet/</a></p>
+
+<p><img src="http://i.imgur.com/5RIBV2B.png/" /></p>
+
+<h3 id="reflection">Reflection</h3>
+
+<p>Here are a two problems I ran into during my design phase that are helpful to keep in mind:</p>
+
+<ol>
+  <li>Floating an element removes it from the flow of the document – it will behave as if it has no connection to the other elements. Changes to margin &amp; display attributes will not take effect.</li>
+  <li>In order to center an element using margin: auto; , the following must be true: the element must have a set width, and the element must display as a block.</li>
+</ol>
