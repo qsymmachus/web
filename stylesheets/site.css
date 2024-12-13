@@ -14,11 +14,14 @@ p {
 }
 
 a {
-	color:  #0e12f9;
+	color: #0047AB;
+	transition: 200ms;
 }
 
 a:hover {
-	color:  #0e12f9;
+	color: #0067f8;
+	background-color: #e5ecf6;
+	transition: 200ms;
 }
 
 h1 {
