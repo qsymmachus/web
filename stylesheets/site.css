@@ -1,16 +1,19 @@
 @charset "utf-8";
 
+body {
+    font-family: "Courier New", monospace;
+    text-wrap: pretty;
+}
+
 #container {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
     width: 800px;
-    font-family: monospace;
 }
 
 p {
     font-size: 1.25em;
-    font-family: monospace;
     line-height: 1.5;
     text-wrap: pretty;
 }
@@ -65,7 +68,6 @@ img {
 
 .section ul {
     font-size: 1.25em;
-    font-family: monospace;
 }
 
 .section li {
