@@ -8,7 +8,7 @@ This feels wrong, however: first, because it misunderstands intelligence as some
 
 To understand why this might be the case, it helps to consider the difference between **intelligence** and **wisdom** – at least, as they're defined in [Dungeons and Dragons](https://en.wikipedia.org/wiki/Dungeons_%26_Dragons).
 
-![image](../images/dnd.gif)
+![image](../../images/dnd.gif)
 
 The intersection of software engineers and Dungeons and Dragons players is large. But in case you spent more time outside than I did in middle school, I'll take a minute to explain.
 
